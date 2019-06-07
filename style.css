@@ -1,0 +1,38 @@
+h1 {
+	text-align: center;
+}
+ul {
+	width: 500px;
+	margin: auto;
+}
+.li_movie {
+	list-style-type: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	margin: 5px;
+	list-style-type: none;
+}
+span {
+	font-size: 20px;
+}
+span:hover{
+	color: #FFA500;
+}
+.new_movie {
+	text-align: center;
+}
+input, button {
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	outline: none;
+}
+input {
+	width: 300px;
+}
+.toggle {
+	color: #FFA500;
+}

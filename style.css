@@ -6,24 +6,34 @@ ul {
 	margin: auto;
 }
 .li_movie {
-	list-style-type: none;
 	border: 1px solid black;
 	border-radius: 5px;
-	display: flex;
-	justify-content: space-between;
 	padding: 10px;
 	margin: 5px;
 	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
 }
 span {
 	font-size: 20px;
 }
-span:hover{
+
+.rating:hover {
 	color: #FFA500;
 }
+
+div.rating:hover > span:hover ~ span {
+	color: black;
+}
+
+div.rating > span:hover {
+	cursor: pointer;
+}
+
 .new_movie {
 	text-align: center;
 }
+
 input, button {
 	padding: 10px;
 	margin: 5px;
@@ -34,5 +44,9 @@ input {
 	width: 300px;
 }
 .toggle {
+	color: #FFA500;
+}
+
+.mark {
 	color: #FFA500;
 }
